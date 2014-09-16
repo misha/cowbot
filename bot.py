@@ -35,13 +35,13 @@ def get_parent_content(comment):
   return parent.selftext if type(parent) is praw.objects.Submission else parent.body
   
 if __name__ == '__main__':
-  for comment in praw.helpers.comment_stream(r, 'all', verbosity=0):
+  for comment in praw.helpers.comment_stream(r, 'all', limit=None, verbosity=0):
     match = directive.search(comment.body)
 
     if match:
       id = comment.id
       document = {'_id': id}
-      
+
       if comments_collection.find_one(document):
         continue
 
