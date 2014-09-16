@@ -1,5 +1,5 @@
-cowbot [![Build Status](https://travis-ci.org/msoliter/style-police.svg?branch=master)](https://travis-ci.org/msoliter/style-police)
-============
+cowbot [![Build Status](https://travis-ci.org/msoliter/cowbot.svg?branch=master)](https://travis-ci.org/msoliter/cowbot)
+======
 
 The cowbot takes directives in reddit comments and replies with a styled comment.
 
