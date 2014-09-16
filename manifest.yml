@@ -1,6 +1,6 @@
 applications:
   - name: cowbot
-    memory: 256M
+    memory: 128M
     instances: 1
     buildpack: https://github.com/cloudfoundry/python-buildpack.git
     command: python bot.py $BOT_PASSWORD
