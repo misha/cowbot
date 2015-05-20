@@ -1,4 +1,4 @@
-cowbot [![Build Status](https://travis-ci.org/msoliter/cowbot.svg?branch=master)](https://travis-ci.org/msoliter/cowbot)
+cowbot
 ======
 
 The cowbot takes directives in reddit comments and replies with a styled comment.
